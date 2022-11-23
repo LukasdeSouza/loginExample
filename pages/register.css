@@ -1,0 +1,64 @@
+i {
+  margin: 32px;
+}
+
+.container-buttons {
+  margin-top: 24px;
+}
+
+.email-span {
+  font-size: 12px;
+  margin-left: 4px;
+
+  color: #aaa;
+}
+
+.email-input {
+  height: 40px;
+  width: 94%;
+
+  border: 1px solid #cb7dff;
+  border-radius: 8px;
+}
+
+.password-span {
+  margin-top: 16px;
+
+  font-size: 12px;
+  margin-left: 4px;
+
+  color: #aaa;
+}
+
+.password-input {
+  height: 40px;
+  width: 94%;
+
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.confirm-register-button {
+  background-color: #cb7dff;
+
+  width: 95%;
+  height: 40px;
+
+  margin-top: 32px;
+
+  border: 1px solid #eee;
+  border-radius: 8px;
+
+  color: #fff;
+
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.confirm-register-button:hover {
+  background-color: #fff;
+  color: #000;
+
+  transition: all 0.8s ease;
+}

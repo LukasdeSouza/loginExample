@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+section {
+  margin-top: 64px;
+
+  width: 326px;
+  height: 612px;
+
+  border: 1px solid #eee;
+  border-radius: 12px;
+
+  font-family: "Inter", sans-serif;
+}
+
+.container-image {
+  margin-top: 16px;
+
+  display: flex;
+  align-items: center;
+
+  width: 291px;
+  height: 280.31px;
+
+  border-radius: 12px;
+  background-color: #cb7dff;
+}
+
+.header-text {
+  margin-top: 32px;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main-text {
+  margin-top: 32px;
+
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.container-buttons {
+  margin-top: 56px;
+  margin-left: 16px;
+}
+.container-buttons a {
+  text-decoration: none;
+}
+
+.register-button {
+  height: 50px;
+  width: 143px;
+
+  border: 1px solid #fff;
+  border-radius: 16px 0 0 16px;
+
+  background: rgb(246, 246, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 247, 1) 0%,
+    rgba(255, 251, 251, 0.9791183294663574) 47%,
+    rgba(244, 242, 242, 0.9443155452436195) 100%
+  );
+
+  font-size: 14px;
+}
+/* .register-button:hover {
+  background-color: #cb7dff;
+
+  transition: all 0.8s ease;
+  color: #fff;
+} */
+
+.register-button a {
+  color: #000;
+}
+
+.login-button {
+  height: 50px;
+  width: 145px;
+
+  border: 1px solid #fff;
+  border-radius: 0 16px 16px 0;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  background-color: #cb7dff;
+  color: #fff;
+}
+
+.login-button:hover {
+  background-color: #eee;
+
+  transition: all 0.8s ease;
+  color: #000;
+}
+
+.login-button a {
+  color: #fff;
+}
